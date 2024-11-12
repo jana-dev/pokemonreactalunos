@@ -1,0 +1,71 @@
+/* src/index.css */
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.app {
+  width: 100%;
+  max-width: 400px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffcc00;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #ff9900;
+}
+
+.pokemon-card {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.pokemon-card img {
+  width: 150px;
+  height: 150px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+/* Estilos para desktop */
+@media (min-width: 600px) {
+  .app {
+    max-width: 600px;
+  }
+}
